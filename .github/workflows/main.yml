@@ -41,3 +41,4 @@ jobs:
    
     - name: Deploying on Surge
       run: surge ./build k2bootcamp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      
