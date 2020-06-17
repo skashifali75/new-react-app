@@ -40,7 +40,7 @@ jobs:
         cmd: npm install -g surge
    
     - name: Deploying on Surge
-      run: surge ./build k2boot.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build k2bootcamp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
      
         
     
