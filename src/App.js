@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-
+import Lunch from './lunch.js';
 function App() {
   return (
     <div>
-      <h1>This new React One Kia Baat Hay Bhai .. </h1> 
+     <Lunch sdish="labe shireen" dish="pullao"/>
     </div>
   );
 }
