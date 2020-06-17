@@ -32,13 +32,12 @@ jobs:
       with:
     # Yarn command
        cmd: install
-    - name: Building Surge
+
+    - name: Building Yarn
       run:  yarn build
       
     - name: Installing surge 
-      uses:
-      with:
-        cmd: npm install -g surge
+      run: npm install -g surge
    
     - name: Deploying on Surge
       run: surge ./build k2bootcamp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
