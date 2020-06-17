@@ -7,9 +7,9 @@ function App() {
     <div>
      <Lunch  sdish="labe shireen" dish="pullao"/>
      <hr/>
-     <Lunch sdish="labe shireen" dish="pullao"/>
+     <Lunch sdish="Locky ka Halwa" dish="Beef Biryani"/>
      <hr/>
-     <Lunch sdish="labe shireen" dish="pullao"/>  
+     <Lunch sdish="Coktail" dish="Qourma"/>  
     </div>
   );
 }
