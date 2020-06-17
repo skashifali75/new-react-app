@@ -36,6 +36,7 @@ jobs:
       run:  yarn build
       
     - name: Installing surge 
+      uses:
       with:
         cmd: npm install -g surge
    
